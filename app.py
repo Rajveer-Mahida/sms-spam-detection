@@ -3,7 +3,7 @@ import pickle
 
 # Load model and vectorizer with error handling
 try:
-    model = pickle.load(open('./src/models/BNB.pkl', 'rb'))
+    model = pickle.load(open('./src/models/BernoulliNB.pkl', 'rb'))
     cv = pickle.load(open('./src/models/vectorizer.pkl', 'rb'))
 except FileNotFoundError as e:
     st.error("Error loading model or vectorizer. Please check the file paths.")
