@@ -2,3 +2,8 @@ streamlit
 scikit-learn
 numpy
 scipy
+regex
+nltk
+matplotlib
+wordcloud
+seaborn
